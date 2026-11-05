@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>FORMULÁRIO - MC DONALDS</title>
+</head>
+
+<body>
+
+    <main class="container">
+        <div class="icone">
+            <img src="">
+        </div>
+
+        <h1>MATE SUA FOME - MC DONALDS</h1>
+        <p> preencha o formulário para matar sua fome com méqui</p>
+
+        <form id="formulario">
+            <!--CAMPO NOME-->
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome" required>
+
+            <!--CAMPO LANCHE-->
+            <label for="lanche">Digite seu lanche</label>
+            <input type="text" id="lanche" placeholder="Digite seu lanche favorito" required>
+
+            <!--CAMPO DE TELEFONE-->
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" placeholder="(11) 9999-9999" required>
+
+            <!--CAMPO DE UNIDADES-->
+            <label for="unidade">Qual unidade você prefere:</label>
+            <select id="unidade">
+
+                <option value="">Selecione uma opção</option>
+                <option value="Santana">Santana</option>
+                <option value="Av Imirim">Av Imirim</option>
+                <option value="Mandaqui">Mandaqui</option>
+                <option value="Morumbi">Morumbi</option>
+            </select>
+
+            <!--CAMPO DE OBSERVAÇÔES-->
+
+            <label for="mensagem">OBSERVAÇÕES:</label>
+            <textarea id="mensagem" placeholder="Digite sua mensagem"></textarea>
+
+            <button type="submit">Enviar solicitação</button>
+        </form>
+
+    </main>
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
